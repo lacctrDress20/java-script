@@ -7,3 +7,11 @@ var concatenacion = texto + "   " + texto2;
 
 var datos = document.getElementById("datos");
 datos.innerHTML = concatenacion;
+
+var saludo = "Bienvenido"
+var nombre = "José"
+
+var concatenacion = saludo + " " + nombre;
+
+var hola = document.getElementById("hola");
+hola.innerHTML = concatenacion;
