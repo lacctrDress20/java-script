@@ -1,13 +1,13 @@
 // crea un nuevo objeto `Date`
-var today = new Date();
+var timeZone = new Date();
  
 // obtener la hora en la configuración regional de Perú.
-var now = today.toLocaleTimeString('es-PE');
+var now = timeZone.toLocaleTimeString('es-PE');
 console.log(now);
  
 //---------------------------------------
 
-// crea un nuevo objeto `Date`
+// crea otro objeto `Date`
 var today = new Date();
 // obtener la fecha en la configuración regional de Perú.
 var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
